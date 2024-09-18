@@ -1,0 +1,9 @@
+.skill-bar {
+    width: 0;
+    transition: width 2s ease-in-out;
+}
+
+/* Apply animation when section is scrolled to */
+#skills-section:target .skill-bar {
+    width: var(--skill-width);
+}
